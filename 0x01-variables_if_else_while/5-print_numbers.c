@@ -10,10 +10,11 @@
 int main(void)
 {
 	int a = 0;
+	char c = a + '0'
 
 	while (a <= 9)
 	{
-		printf(a + '0');
+		putchar(c);
 		a++;
 	}
 	putchar('\n');
