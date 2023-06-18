@@ -16,7 +16,7 @@ int main(void)
 	}
 	else if (n == 0)
 	{
-		printf("is 0 and 0 is 0\n",rand(),n);
+		printf("is 0 and 0 is 0\n");
 	}
 	else
 	{
