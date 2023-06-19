@@ -1,11 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Emtry point
+ * main - prints 0-9 using putchar
  *
- * prints 0-9
- *
- * return: 0 end
+ * Return: 0 (success)
  */
 int main(void)
 {
@@ -15,6 +13,7 @@ int main(void)
 	while (a <= 9)
 	{
 		putchar(c);
+		c++;
 		a++;
 	}
 	putchar('\n');
