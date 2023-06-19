@@ -8,13 +8,17 @@
 int main(void)
 {
 	int c = 0;
+	char a = 'a';
 
 	while (c <= 9)
 	{
 		putchar(c + '0');
 		c++;
-		putchar('\n');
 	}
+	while (a <= 'e')
+	{
+		putchar(a);
+	}
+	putchar('\n');
 	return (0);
-
 }
