@@ -17,7 +17,7 @@ int main(void)
 	}
 	while (a <= 'e')
 	{
-		putchar(a);
+		putchar(a++);
 	}
 	putchar('\n');
 	return (0);
