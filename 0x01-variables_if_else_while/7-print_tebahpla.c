@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 /**
-* main - enter point
-*
-* prints all alphabats in revers using putchar
-*
-* return: 0 (success)
-*/
+ * main - Entry paint
+ *
+ * prints all alphabets using putchar
+ *
+ * Return: 0 (success)
+ */
 int main(void)
 {
 	char q = 'z';
