@@ -9,7 +9,7 @@ int main(void)
 {
 	int c = 0;
 
-	while (a <= 9)
+	while (c <= 9)
 	{
 		putchar(c + '0');
 		c++;
