@@ -13,7 +13,10 @@ int	main(void)
 		{
 			putchar(a + '0');
 			putchar(',');
-			putchar(' ');
+			if (a <= 8)
+			{
+				putchar(' ');
+			}
 			a++;
 		}
 	return (0);
