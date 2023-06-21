@@ -4,8 +4,7 @@
 * int_islower - checks for lowercase charater
 *
 * Return: Always 0.
-*/
-int int_islower(int c)
+*/int _islower(int c)
 {
 	if (c >= 'a' && c <= 'z')
 		return (1);
