@@ -1,15 +1,26 @@
 #include "main.h"
 
 /**
-* _isalpha - Returns 1 if c is alphabetic Returns 0 otherwise.
+* _print_sign - print + if n > 0, 0 if n = 0 , - if n < 0 
 * @c: input for function
 *
 * Return: Always 0.
 */
-int _isalpha(int c)
+int _print_sign(int n)
 {
-	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+	if (n > 0)
+	{
+		_putchar('+');
 		return (1);
-	else
+	}
+	else if (n == 0)
+	{
+		_putchar('0');
 		return (0);
+	}
+	else
+	{
+		_putchar('-');
+		return (-1);
+	}
 }
