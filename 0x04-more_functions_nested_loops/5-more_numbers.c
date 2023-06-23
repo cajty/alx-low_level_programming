@@ -6,17 +6,20 @@
  * Return: void.
  */
 
-void more_numbers(void)
+void	more_numbers(void)
 {
-	int x, y;
+	int	x, y;
 
-	for (x = 0; x < 10; x++)
+	x = 0;
+	y = 0;
+	while (x <= 9)
 	{
-		for (y = 0; y < 15; y++)
+		while (y <= 14)
 		{
 			_putchar(y + '0');
+			y++;
 		}
 		_putchar('\n');
+		x++;
 	}
-	_putchar('\n');
 }
