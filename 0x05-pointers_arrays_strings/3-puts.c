@@ -7,5 +7,12 @@
 */
 void _puts(char *str)
 {
-	printf("%s\n", str);
+	int a = 0;
+
+	while(s[a])
+	{
+		a++;
+		_putchar(s[a]);
+	}
+	_putchar('\n');
 }
