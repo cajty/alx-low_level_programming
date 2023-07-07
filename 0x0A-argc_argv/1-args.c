@@ -7,10 +7,6 @@
 */
 int main(int argc __attribute__((unused)), char *argv[])
 {
-	int a = 0;
-
-	if (argc--)
-		a++;
-	printf("%d\n", a);
+	printf("%d\n", argc - 1);
 	return (0);
 }
