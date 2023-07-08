@@ -5,7 +5,7 @@
 *@argv: argument vector
 *Return: 0 if success or 1 Error
 */
-int main(int argc __attribute__((unused)), char *argv[])
+int main(int argc, char *argv[])
 {
 	int res;
 	int a = atoi(argv[1]);
