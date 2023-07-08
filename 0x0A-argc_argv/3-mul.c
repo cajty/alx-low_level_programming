@@ -3,7 +3,7 @@
 * main - multiplies two numbers
 *@argc: argument count
 *@argv: argument vector
-*Return: 0 if success or 1 failure
+*Return: 0 if success or 1 Error
 */
 int main(int argc __attribute__((unused)), char *argv[])
 {
