@@ -13,7 +13,7 @@ int main(int argc __attribute__((unused)), char *argv[])
 
 	if (argc == 3)
 	{
-		res = a + b;
+		res = a * b;
 		printf("%d\n", res);
 		return (0);
 	}
