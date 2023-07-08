@@ -7,7 +7,7 @@
 */
 int main(int argc __attribute__((unused)), char *argv[])
 {
-	int res:
+	int res;
 	int a = atoi(argv[1]);
 	int b = atoi(argv[2]);
 
